@@ -1,0 +1,36 @@
+{
+    "MainWinResolution": [
+        1280,
+        720
+    ],
+    "DetailsTestWinResolution": [
+        800,
+        600
+    ],
+    "LabDutFont": ["Arial", 5],
+    "LabLargeFont": ["Arial", 8],
+    "LabMediumFont": ["Arial", 5],
+    "LabSmallFont": ["Arial", 3],
+    "BtnFont": ["Arial", 5],
+    "ProgramName": "JIF_OS",
+    "Version": "0.0.1",
+    "LastProjectQrCode": "kVXWLTkWQz",
+    "DataBase": {
+        "host": "10.10.100.99",
+        "user": "iir",
+        "name_database": "iir",
+        "password": "0xjvEd6sAvIxdBEL"
+    },
+    "Printer": {
+        "status": "OFF",
+        "address_ip": "10.100.80.120"
+    },
+    "Camera": {
+        "status": "OFF",
+        "option": [
+            0,
+            0
+        ]
+    },
+    "Mode": "Pracownik"
+}

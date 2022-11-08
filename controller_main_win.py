@@ -9,7 +9,7 @@ class ControlGui(QWidget, GuiWidget):
     def __init__(self, _path_gui_parameter, parent=None):
         super(ControlGui, self).__init__(parent, )
         self.setup_ui(self)
-        self.model_gui = ModelGui()
+        self.model_gui = ModelGui('settings/global.json')
         self.set_window_size()
         self.set_btn_size()
         self.set_lab_size()

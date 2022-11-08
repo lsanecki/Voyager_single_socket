@@ -1,7 +1,7 @@
 import json
 
 
-class Setting:
+class SettingView:
     def __init__(self):
         pass
 
@@ -72,10 +72,8 @@ class Setting:
 
 
 def main():
-    # print(type(JsonSetting.load_file("settings/global.json")))
-    set_json = Setting.load_file("settings/global.json")
+    set_json = SettingView.load_file("settings/global.json")
     print(set_json)
-    #JsonSetting.save_file("settings/", set_json)
 
 
 if __name__ == '__main__':
