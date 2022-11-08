@@ -131,7 +131,7 @@ class GuiWidget(object):
     def check_count_dut(self):
         pass
 
-    def init_test_sockets(self, _count_socket=16):
+    def init_test_sockets(self, _count_socket=1):
         """Generuje gniazda DUT w oknie programu
 
                 :param _count_socket: Ilosc gniazd DUT.
